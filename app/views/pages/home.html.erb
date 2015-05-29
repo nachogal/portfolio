@@ -1,0 +1,21 @@
+<%= render "layouts/navbar" %>
+
+<section id="intro" class="hero">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-push-6">
+          <%= image_tag "raf.jpg", class: "img-responsive center-block logo" %>
+      </div>
+      <div class="col-md-6 col-md-offset-6">
+        <a class="scroll" href="#bg-tote"><button class="button button-primary">
+           About
+        </button></a>
+      </div>
+      <div class="col-md-6 col-md-offset-6 watch">
+          <a href="https://www.youtube.com/watch?v=Suwq6lqFoLQ" class="video"> 
+          <p class="video">Watch the Video</p> </a>
+          <%= link_to (image_tag "play.png", class: "play"), "https://www.youtube.com/watch?v=Suwq6lqFoLQ", class: "video" %>
+      </div> 
+    </div> <!-- row -->
+  </div> <!-- container -->
+</section>
